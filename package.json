@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://sebasga21.github.io/react_sebas/",
   "predeploy": "npm run buld",
-  "deplor": "gh-pages -d build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.16.1",
