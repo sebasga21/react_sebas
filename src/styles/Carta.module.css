@@ -1,0 +1,95 @@
+.cartaProducto
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+    background: linear-gradient(45deg, #180d1b, #4940AE);
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow:
+    0 0 25px 1px #fff;
+}
+
+.imgCarta
+{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bodyCarta
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 8%;
+    padding: 0;
+}
+
+.footerCarta
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    padding: 0% 5% 5% 5%;
+}
+
+.linkProducto
+{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: darkturquoise;
+    color: black;
+    padding: 2% 8% 2% 8%;
+    border: none;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.linkProducto:hover
+{
+    text-decoration: none;
+    color: black;
+    transform: scale(0.9);
+    font-weight: bold;
+}
+
+#buttonProducto
+{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: darkturquoise;
+    color: black;
+    padding: 2% 8% 2% 8%;
+    border: none;
+    border-radius: 20px;
+    margin: 2%;
+    outline: none;
+}
+
+#buttonProducto:hover
+{
+    text-decoration: none;
+    background: darkturquoise;
+    color: black;
+    transform: scale(0.9);
+    font-weight: bold;
+}
+
+/* .buttonProducto:active
+{
+    box-shadow: none;
+} */
